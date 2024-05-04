@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Short+Stack&display=swap');
+
+:root {
+    --base-color-black: #373435;
+    --base-color-blue: #006FA3;
+    --base-color-orange: #FF7E06;
+    --base-color-yellow: #FFC82A;
+    --base-color-background: #f7dacb71;
+
+    --font-color-primary: #373435;
+    --font-color-secondary: #0084A5;
+}
+
+html,
+body,
+ul,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: "Short Stack", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    scroll-behavior: smooth;
+}
+
+.home{
+    height: 100vh;
+    min-height: 100%;
+    background-image: url(/Assets/background-home.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+    
+}
+
+@media (max-width: 320px) {
+
+.nav{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 1rem;
+
+    z-index: 3;
+    
+
+}
+
+.nav_section{
+    width: 18rem;
+    padding: 1rem 0;
+    border-radius: 2rem;
+    background-color: #006fa3b6;
+    backdrop-filter: blur(50px);
+
+
+}
+
+.nav_section-content{
+    display: flex;
+    list-style: none;
+    font-size: .7rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.nav_section-content a{
+    text-decoration: none;
+    color: #fafafa;
+    display: flex;
+    gap: .2rem;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_section-content li{
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+
+.nav_section-content li img {
+    width: 1rem;
+}
+
+.home{
+    position: relative;
+}
+
+#amarelo{
+    position: absolute;
+
+    width: 8rem;
+    height: auto;
+    top: 0;
+    left: 0;
+
+    opacity: 0;
+}
+
+#laranja{
+    position: absolute;
+
+    width: 6rem;
+    height: auto;
+    right: 0;
+    top: 0;
+
+    opacity: 0;
+}
+
+#azul{
+    position: absolute;
+
+    width: 10rem;
+    height: auto;
+    left: -10;
+    top: -10;
+
+    opacity: 0;
+}
+
+#azul-mobile{
+    position: absolute;
+
+    width: 10rem;
+    z-index: -1;
+}
+
+#laranja-mobile{
+    position: absolute;
+
+    width: 13rem;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+
+.home_logo{
+    opacity: 0;
+}
+
+.png1{
+    width: 5rem;
+
+    position: absolute;
+    top: 30rem;
+    left: .8rem;
+}
+
+.png2{
+    width: 1.5rem;
+
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+}
+
+.png3{
+    width: 2.5rem;
+
+    position: absolute;
+    top: 4rem;
+    right: 9rem;
+}
+
+.png4{
+    width: 6rem;
+
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.png5{
+    width: 2.5rem;
+
+    position: absolute;
+    top: 7rem;
+    right: .6rem;
+    rotate: -10deg;
+}
+
+.png6{
+    width: 2.5rem;
+
+    position: absolute;
+    top: 18rem;
+    right: .5rem;
+}
+
+.png7{
+    width: 4rem;
+
+    position: absolute;
+    top: 16rem;
+    left: .5rem;
+}
+
+.png8{
+    width: 4rem;
+
+    position: absolute;
+    top: 22rem;
+    left: 2rem;
+    rotate: -50deg;
+}
+
+.home_text_content h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 7rem;
+    left: 6rem;
+}
+
+.home_text_content p{
+    font-size: 1rem;
+    text-transform: uppercase;
+
+    position: absolute;
+    top: 10rem;
+    left: 4rem;
+}
+
+.home_text_p{
+    font-size: 1rem;
+
+    position: absolute;
+    top: 12.5rem;
+    left: 5.8rem;
+    color: var(--base-color-blue);
+}
+
+.home_text_chamada{
+    font-size: .7rem;
+    text-align: center;
+    width: 16rem;
+
+    position: absolute;
+    top: 13.4rem;
+    left: 3rem;
+}
+
+.button{
+    position: absolute;
+    top: 19rem;
+    left: 4.5rem;
+
+    padding: .1rem 2rem;
+    font-family: Maven Pro;
+    font-weight: 600;
+    font-size: 1em;
+    
+    border: none;
+    border-radius: 50px;
+    background-color: var(--base-color-yellow);
+    
+    transition: .2s;
+}
+
+.button a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--base-color-black);
+    gap: .5rem;
+}
+
+.button a svg{
+    width: 1.5rem;
+}
+
+
+
+
+.home_text_img img{
+    position: absolute;
+    width: 20rem;
+
+    right: 0;
+    bottom: 0;
+}
+
+.somos{
+    padding: 0;
+    margin: 0;
+
+    background-image: url(/Assets/Background_QuemSomos.svg);
+    background-size: cover;
+    background-color: var(--base-color-background);
+
+    position: relative;
+}
+
+.somos_text h2{
+    font-size: 1.5rem;
+    padding: 6rem 0 2rem 1.5rem;
+}
+
+.somos_text p{
+    width: 15rem;
+
+    font-size: .8rem;
+    padding-left: 1.5rem;
+}
+
+.somos_img img{
+    width: 16rem;
+    height: auto;
+
+    padding: 0 1.5rem;
+    position: relative;
+}
+
+.bordaback{
+    width: 15rem;
+    height: 12rem;
+    color: transparent;
+
+    border: 4px dashed var(--base-color-orange);
+    position: absolute;
+
+    top: 10rem;
+    left: .8rem;
+    z-index: -1;
+}
+
+.somos_text ul{
+    display: flex;
+    padding: 0 1.5rem;
+    gap: 1rem;
+}
+
+.somos_text ul a{
+    text-decoration: none;
+    color: var(--base-color-orange);
+}
+
+}
