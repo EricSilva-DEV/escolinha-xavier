@@ -297,6 +297,7 @@ a {
 }
 
 .somos{
+    height: 100vh;
     padding: 0;
     margin: 0;
 
@@ -342,13 +343,55 @@ a {
 
 .somos_text ul{
     display: flex;
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 2rem 1.5rem;
     gap: 1rem;
+    list-style: none;
 }
 
 .somos_text ul a{
     text-decoration: none;
     color: var(--base-color-orange);
 }
+
+.cta{
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn2 {
+    font-size: 1rem;
+    background-color: var(--base-color-yellow);
+    border: transparent;
+    padding: .6rem 2rem;
+    border-radius: 10rem;
+
+    display: flex;
+    align-items: center;
+    gap: .5em;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; */
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: var(--base-color-black);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn2 svg {
+    width: 1.5rem;
+    height: auto;
+    color: var(--base-color-black);
+    padding-right: .8rem;
+}
+
 
 }
