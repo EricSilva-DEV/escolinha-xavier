@@ -291,8 +291,6 @@ a {
 }
 
 
-
-
 .home_text_img img{
     position: absolute;
     width: 20rem;
@@ -396,6 +394,78 @@ a {
     height: auto;
     color: var(--base-color-black);
     padding-right: .8rem;
+}
+
+.container2 {
+    width: 320px;
+
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.turmas {
+    width: 320px;
+    height: 100vh;
+}
+
+.flip-container {
+    width: 300px;
+    height: 200px;
+    perspective: 1000px;
+
+    margin-top: 5rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.flip-container:hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flipper {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.front img,
+.back img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.flipper {
+    position: relative;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.back {
+    transform: rotateY(180deg);
+    width: 300px;
+    height: 200px;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
 }
 
 
