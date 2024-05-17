@@ -448,7 +448,7 @@ a {
 .front img,
 .back img {
     width: 290px;
-    border-radius: 1rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
 .back {
@@ -485,7 +485,8 @@ a {
     color: var(--base-color-black);
     background-color: var(--base-color-yellow);
     border: none;
-    border-radius: 5rem;
+    border-radius: 0 0 5rem 5rem;
+    width: 100%;
 
 }
 
