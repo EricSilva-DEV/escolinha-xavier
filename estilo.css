@@ -34,7 +34,7 @@ a {
     
 }
 
-@media (min-width: 320px) {
+@media (max-width: 400px) {
 
 .nav{
     width: 100%;
