@@ -1,0 +1,130 @@
+@media (min-width: 480px){
+#laranja-mobile {
+        position: absolute;
+
+        width: 14rem;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+
+
+#azul-mobile {
+    position: absolute;
+
+    width: 14rem;
+    left: 0;
+    z-index: -1;
+}
+
+.png1 {
+    width: 6rem;
+    
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+}
+
+.png2 {
+    width: 2rem;
+
+    position: absolute;
+    top: 6rem;
+    left: 5rem;
+}
+
+.png3 {
+    width: 3rem;
+
+    position: absolute;
+    top: 4rem;
+    right: 12rem;
+}
+
+.png4 {
+    width: 8rem;
+
+    position: absolute;
+    top: 2rem;
+    right: 1.5rem;
+}
+
+.png5 {
+    width: 3rem;
+
+    position: absolute;
+    top: 9rem;
+    right: .6rem;
+    rotate: -10deg;
+}
+
+.png6 {
+    width: 3rem;
+    right: 2.5rem;
+}
+
+.png7 {
+    width: 5rem;
+
+    top: 18rem;
+    left: 2.5rem;
+    rotate: 30deg;
+}
+
+.png8 {
+    width: 5rem;
+
+    left: 5rem;
+    rotate: -50deg;
+}
+
+.home_text_content h1 {
+    font-size: 2.5rem;
+    left: 25%;
+}
+
+.home_text_content p {
+    font-size: 1.2rem;
+
+    top: 10.8rem;
+    left: 20%;
+}
+
+.home_text_p {
+    font-size: 1.3rem;
+
+    top: 13.5rem;
+    left: 25%;
+}
+
+.home_text_chamada {
+    top: 15rem;
+    left: 23%;
+}
+
+.button {
+    position: absolute;
+    top: 20rem;
+    left: 28%;
+}
+
+.somos_text h2 {
+    padding: 3rem 0 2rem 1.5rem;
+}
+
+.somos_text p {
+    width: 22rem;
+
+    font-size: 1rem;
+}
+
+.somos_img img {
+    width: 18rem;
+}
+
+.bordaback {
+    width: 17rem;
+    height: 10rem;
+}
+
+}
