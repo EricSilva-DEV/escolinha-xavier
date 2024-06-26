@@ -127,4 +127,80 @@
     height: 10rem;
 }
 
+.flipper {
+    width: 290px;
+    height: 200px;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.flip-container{
+    height: 100%;
+}
+
+.front img,
+.back img {
+    width: 390px;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.back {
+    transform: rotateY(180deg);
+    width: 390px;
+    height: 200px;
+
+}
+
+.back1 {
+    padding-top: 20rem;
+}
+
+.front,
+.back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.cardmov {
+    width: 360px;
+    height: 800px;
+    background-color: var(--base-color-yellow);
+    padding: 1rem 1rem 4rem 1rem;
+    border-radius: 1rem;
+}
+
+.cardmov_infantil {
+    width: 360px;
+    height: 600px;
+    background-color: var(--base-color-yellow);
+    padding: 1rem 1rem 4rem 1rem;
+    border-radius: 1rem;
+}
+
+.cardmov_title {
+    font-size: 1.5rem;
+}
+
+.cardmov p {
+    height: 100%;
+}
+
+.bt_turma {
+    font-size: 1.3rem;
+    font-family: Short Stack;
+    padding: .5rem 3.2rem;
+    color: var(--base-color-black);
+    background-color: var(--base-color-yellow);
+    border: none;
+    border-radius: 0 0 5rem 5rem;
+    width: 100%;
+
+}
+
 }
